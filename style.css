@@ -1,0 +1,20 @@
+p{  
+
+    direction: rtl;
+    background-color: grey;
+    font-size: 18px;
+    color: #575454;
+}
+body{
+    font-family: Vazirmatn;
+    direction: rtl;
+    background-color:gray ;
+    font-size: 18px;
+    
+}
+h1{
+    font-size: 20px;
+    text-align: left;
+     width:55%;
+}
+
