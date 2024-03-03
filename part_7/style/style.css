@@ -1,0 +1,28 @@
+*{
+    direction: rtl;
+    font-family: vazirmatn;
+}
+.actionbutton{
+    background-color: blueviolet;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.actionbutton:hover{
+    background-color: blanchedalmond;
+}
+
+div{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-right:20px ;
+}
+#service{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-right:100px ;
+
+}
+
