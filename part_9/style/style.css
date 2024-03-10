@@ -1,0 +1,9 @@
+*{
+    direction: rtl;
+    font-size: larger;
+}
+.row{
+    float: right;
+    width: 25%;
+    padding: 5px;
+}
