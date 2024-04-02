@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+            direction: rtl;
+        }
+       table{
+        width: 100%;
+       }
+       /* td,th{
+        padding: 8px;
+        border: 1px solid black;
+        width: 30%;
+       } */
+       #fname{
+        padding: 8px;
+        border: 1px solid black;
+        width: 20%;
+       }
+       #lname{
+        padding: 8px;
+        border: 1px solid black;
+        width: 20%;
+       }
+       tr:nth-child(odd){
+        background-color: purple;
+        color: white; 
+        }
+        .kode{
+            text-align: left;
+            width: 20%;
+            border: 1px solid black;
+        }
+        #tablecontainer{
+            margin-right: 30%;
+            margin-left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div id="tablecontainer">
+        <table>
+            <tr>
+                <th id="fname">نام</th>
+                <th id="lname">نام خانوادگی</th>
+                <th class="kode">کد ملی</th>
+            </tr>
+            <tr>
+                <td id="fname">رضا</td>
+                <td id="lname">محمدی</td>
+                <td class="kode">2202</td>
+            </tr>
+            <tr>
+                <td id="fname">مریم</td>
+                <td id="lname">عسگری</td>
+                <td class="kode">0312367425</td>
+            </tr>
+            <tr>
+                <td id="fname">علی</td>
+                <td id="lname">صادقی</td>
+                <td class="kode">0312377425</td>
+            </tr>
+        </table>
+    </div>
+   
+   
+</body>
+</html>
