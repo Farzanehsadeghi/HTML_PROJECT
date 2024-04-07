@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.pic{
+    
+display: grid;
+grid-template-columns: 33% 33% 33%;
+}
+/* .pic >div{
+width: 33.3%;
+} */
+
+p{
+    text-align: center;
+    padding-right: 35%;
+    
+}
+img{
+    margin: auto;
+}
