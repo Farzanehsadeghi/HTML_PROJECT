@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    direction: rtl;
+}
+.main{
+    display: flex;
+    flex-direction:row;
+}
+
+.col-1{
+    flex: 33%;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    padding: 25px 35px;
+    
+}
+
+
+.actionbutton{
+    text-decoration: none;
+    padding: 14px 25px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    transition: width 2s;
+    color: black;
+    font-size: small;
+}
+
+.actionbutton:hover{
+    padding: 15px 55px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+}
+
+@media screen and (max-width:600px) {
+.main{
+    flex-direction: column;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+       
+}
